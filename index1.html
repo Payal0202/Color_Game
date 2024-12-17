@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+  <title>ColorBook Mohcin147</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div id="myDiv" class="color-button" onclick="playSound(); document.getElementById('colorPicker').click()">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" viewBox="0 0 14 14" height="100%" width="100%">
+        <path fill="#ffffff" d="M11.50074 1.099305c-1.43892 -1.4493762 -3.843063 -1.4490396 -5.281569 0.001008l-0.732132 0.732132L4.527297 0.872703c-0.263601 -0.2636037 -0.690993 -0.2636037 -0.9545939999999999 0 -0.263601 0.263601 -0.263601 0.690993 0 0.9545939999999999l7.200027 7.199973c0.26361 0.26361 0.69093 0.26361 0.95454 0 0.26361 -0.26357400000000003 0.26361 -0.690966 0 -0.9545669999999999L10.7676 7.113024l0.73215 -0.73215c1.45008 -1.4384970000000001 1.45035 -3.842631 0.00099 -5.281569Z"></path>
+      </svg>
+    </div>
+    <div class="button" onclick="playSound(); playMusic();">
+      <svg xmlns="http://www.w3.org/2000/svg" style="fill:#ffffff" viewBox="0 0 14 14" height="100%" width="100%">
+        <path fill="#ffffff" d="M12.781.23a1.227 1.227 0 0 0-.555.02h-.006L4.587 2.369a1.227 1.227 0 0 0-.905 1.177V9.04a2.477 2.477 0 1 0 1.5 2.277V6.076l7.09-1.97V6.57a2.477 2.477 0 1 0 1.5 2.345V1.402a1.226 1.226 0 0 0-.99-1.172Z"></path>
+      </svg>
+    </div>
+  </div>
+
+  <div id="boxname" class="boxname">
+    <div class="textlabel">Enter text here:</div>
+    <input type="text" id="name" placeholder="ColorBook Mohcin147">
+    <div class="okbutton" onclick="changeText();toggleboxup();playSound()">OK</div>
+  </div>
+
+  <svg class="color" onclick="playSound()" id="printable" viewBox="0 5 200 10" width="200" height="24">
+    <text id="text" x="20" y="10">ColorBook</text>
+  </svg>
+
+  <div id="content1" class="container">
+    <svg id="printable" xmlns="http://www.w3.org/2000/svg" class="color" viewBox="0 0 400 400" width="400" height="400">
+      <path d="M142.6 30.4c-.8 0-1.7 0-2.6.2A38.4 38.4 0 0 0 118 45c-8.2 12-4.4 31.8 9.3 47l2.9 3.2-1 4.6c-.8 3.5-1 6.4-.8 12.3l.3 7.8-2 2.2c-3.9 4.2-5.8 8-9.3 18.4-5 15-9 23.3-18.8 38.5-4.5 7-9.6 17.6-11.8 24.8-.8 2.4-1.6 4.4-1.8 4.4-.8 0-2.4-24-2.4-36.2v-7l2.3-.3c1.2-.2 3.2-.9 4.3-1.5 2-1.1 2.2-1.1 3.6 0"></path>
+      <path id="pathaa" d="M143.2 32.8h-1c-2 0-4.3.6-6.4 1.5l-2.4 1.1 2.5 1.1c6.3 2.5 10.4 11.2 11.4 23.3.2 3 .5 5.3.8 5.3"></path>
+    </svg>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
